@@ -1,0 +1,31 @@
+.root {
+  position: relative;
+  width: 223px;
+  height: 273px;
+  align-items: flex-start;
+}
+.rectangle13 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px 0px #0000001a;
+}
+.rectangle23 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background-color: #3c68a1;
+  -webkit-mask-image:/* webpackIgnore: true */ url('/assets/pain.svg');
+  mask-image:/* webpackIgnore: true */ url('/assets/pain.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: 0px -267px;
+  mask-position: 0px -267px;
+  -webkit-mask-size: 223px 273px;
+  mask-size: 223px 273px;
+}
